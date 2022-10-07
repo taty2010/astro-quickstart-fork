@@ -17,3 +17,6 @@ jobs:
           owner: taty2010
           base: main
           head: main
+          merge_method: merge
+          pr_title: Fork Sync
+          auto_approve: true
