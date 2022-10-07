@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.6.3
         with:
-          token: ${{ secrets.FORK_SYNC }}
+          token: ${{ secrets.SYNC_FORK }}
           owner: taty2010
           base: main
           head: main
