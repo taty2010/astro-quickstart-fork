@@ -16,7 +16,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: tgymnich/fork-sync@v1.6.3
+      - uses: tgymnich/fork-sync@v1.2.1
         with:
           token: ${{ secrets.SYNC_FORK }}
           owner: taty2010
