@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.2.1
         with:
-          token: ${{ secrets.SYNC_FORK }}
+          github_token: ${{ secrets.SYNC_FORK }}
           owner: taty2010
           base: main
           head: main
